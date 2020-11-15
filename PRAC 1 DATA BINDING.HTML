@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Angular Data Binding</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div ng-app=''>
+    <h2>Data Binding Demonstration</h2>
+    
+    <input ng-init="placeholder='Your name is being displayed : '" ng-model="binding" placeholder= "Enter your name here" ><br> 
+    <p>{{placeholder}}</p>
+    <p ng-bind="binding"></p>
+</div>
+</body>
+</html>
